@@ -126,7 +126,7 @@ hr {
   color: white;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 800px) {
 	.left-content {
 		font-size: 1.2em;
 	}
