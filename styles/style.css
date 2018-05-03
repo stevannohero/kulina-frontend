@@ -111,3 +111,12 @@ hr {
 	height: 25px;
 	margin-left: 5px;
 }
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(255, 100, 0, 0.5) !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color: white;
+}

@@ -15,13 +15,12 @@
 	<title>Kulina's Career</title>
 </head>
 <body>
-	<div class="custom-header">
-		<nav class="navbar navbar-default navbar-expand-lg navbar-static-top">
+	<nav class="navbar navbar-default navbar-fixed-top" style="position: fixed;">
+		<div class="container">
 			<a class="navbar-brand" target="_blank" href="https://www.kulina.id"><img src="https://assetcdn.kulina.id/preliminary/kulina-logo-white.svg"></a>
-			<ul class="nav navbar-nav navbar-right">
-				sss
-			</ul>
-		</nav>
+		</div>
+	</nav>
+	<div class="custom-header">
 		<div class="header-content">
 			<h1 id=title-header>Join Impactful Company</h1>	
 		</div>	
@@ -204,3 +203,24 @@
 	</footer>
 </body>
 </html>
+
+<script type="text/javascript">
+	$(function () {
+	"use strict";
+
+	$('a.page-scroll').bind('click', function (event) {
+		var $anchor = $(this);
+		$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top - 68
+		}, 1500, 'easeInOutExpo');
+		event.preventDefault();
+	});
+	});
+
+	$(function () {
+	  $(document).scroll(function () {
+		  var $nav = $(".navbar-fixed-top");
+		  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		});
+	});
+</script>
