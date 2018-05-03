@@ -15,14 +15,15 @@ Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quick
 .
 ├── index.html
 ├── images
-|   ├── hero-image.png
-|   └── logo.png
+|   ├── background.png
+|   └── social-media
 ├── styles
-|   └── style.css
+|   ├── style.css
+|   └── . . .
 ```
 
 - index.html : the main html code
 - images/ : assets used in project
-- styles/ : styling using css and Bootstrap
+- styles/ : styling using css, js, and jquery
 
 ### Bandung Institute of Technology, 2018.

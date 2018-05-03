@@ -37,11 +37,18 @@
 .left-content {
 	margin-top: 50px;
 	font-size: 2.3em;
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 .right-content {
 	margin-top: 50px;
 	font-size: 1em;
 	color: #9b9999;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.jobs-section {
+	margin-top: 50px;
+	background-color: #fcfcfc;
 }
