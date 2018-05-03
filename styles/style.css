@@ -4,21 +4,28 @@
 
 .custom-header {
 	padding: 40px;
-	width : 100%;
+	width: 100%;
 	min-height: 600px;
 	background-size: cover !important;
 	background: linear-gradient(to left, rgba(255, 100, 0, 0.5), rgba(180, 15, 20, 0.7)), url('../images/background.jpg') no-repeat;
 }
 
-.title-header h1 {
+#title-header {
 	color: white;
 	font-family: 'Arial';
 	text-align: center;
+	display: flex;
+	justify-content: center !important;
+	margin-top: 180px;
 }
 
-.title-header {
-	display: flex;
-	align-content: center;
-	justify-content: center !important;
-	margin-top: 250px;
+.arrow-button {
+	font-size: 2em;
+	color: rgba(255, 100, 0, 0.5);
+	text-align: center;
+	margin: 200px auto 0px;
+	height: 40px;
+	width: 40px;
+	background-color: white;
+	border-radius: 100%;
 }
