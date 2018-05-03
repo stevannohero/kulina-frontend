@@ -15,9 +15,12 @@
 	<title>Kulina's Career</title>
 </head>
 <body>
-	<nav class="navbar navbar-default navbar-fixed-top" style="position: fixed;">
+	<nav class="navbar navbar-default">
 		<div class="container">
 			<a class="navbar-brand" target="_blank" href="https://www.kulina.id"><img src="https://assetcdn.kulina.id/preliminary/kulina-logo-white.svg"></a>
+			<div class="nav-link">
+				
+			</div>
 		</div>
 	</nav>
 	<div class="custom-header">
@@ -219,7 +222,7 @@
 
 	$(function () {
 	  $(document).scroll(function () {
-		  var $nav = $(".navbar-fixed-top");
+		  var $nav = $(".navbar");
 		  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 		});
 	});

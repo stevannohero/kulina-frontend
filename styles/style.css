@@ -112,11 +112,43 @@ hr {
 	margin-left: 5px;
 }
 
-.navbar-fixed-top.scrolled {
+.navbar {
+	position: fixed;
+}
+
+.navbar.scrolled {
   background-color: rgba(255, 100, 0, 0.5) !important;
   transition: background-color 200ms linear;
 }
 
-.navbar-fixed-top.scrolled .nav-link {
+.navbar.scrolled .nav-link {
   color: white;
+}
+
+@media (min-width: 500px) {
+	.left-content {
+		font-size: 1.2em;
+	}
+
+	.right-content p {
+		font-size: 0.6em;
+		font-weight: lighter;
+	}
+
+	.job-title {
+		font-size: 0.8em;
+	}
+
+	.footer {
+		float: left;
+		font-size: 0.5em;
+	}
+
+	.social-media {
+		margin-top: 5px;
+	}
+
+	.social-media img {
+		max-height: 10px;
+	}
 }
