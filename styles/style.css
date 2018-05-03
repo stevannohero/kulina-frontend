@@ -47,19 +47,19 @@
 	margin-top: 50px;
 	font-size: 1em;
 	color: #9b9999;
-	letter-spacing: 1px;
 	font-weight: bold;
+	line-height: 2em;
 }
 
 .jobs-section {
 	margin-top: 50px;
-	min-height: 1500px;
+	min-height: 1444px;
 	background-color: #fcfcfc;
 }
 
 .job-title {
 	font-weight: bolder;
-	font-size: 1.1em;
+	font-size: 1.05em;
 	color: #5b5b5b;
 }
 
@@ -90,4 +90,19 @@
 
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.custom-footer {
+	background-color: #fcfcfc;
+	height: 50px;
+	letter-spacing: 1px;
+}
+
+#heart {
+	color: red;
+	font-size: 1.5em;
+}
+
+hr {
+	margin-top: 0px !important;
 }
