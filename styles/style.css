@@ -1,5 +1,6 @@
 * {
 	font-family: 'Roboto', sans-serif;
+
 }
 
 .custom-header {
@@ -7,7 +8,7 @@
 	width: 100%;
 	min-height: 650px;
 	background-size: cover !important;
-	background: linear-gradient(to left, rgba(255, 100, 0, 0.5), rgba(180, 15, 20, 0.7)), url('../images/background.jpg') no-repeat;
+	background: linear-gradient(rgba(255, 100, 0, 0.5), rgba(180, 15, 20, 0.7)), url('../images/background.jpg') no-repeat;
 }
 
 #title-header {
@@ -17,6 +18,8 @@
 	display: flex;
 	justify-content: center !important;
 	margin-top: 220px;
+	font-weight: bolder;
+	letter-spacing: 1px;
 }
 
 .arrow-button {
@@ -30,7 +33,7 @@
 }
 
 .arrow-button a {
-	color: rgba(255, 100, 0, 0.5);
+	color: rgba(255, 100, 0, 0.5)
 	text-decoration: none;
 }
 
@@ -50,5 +53,41 @@
 
 .jobs-section {
 	margin-top: 50px;
+	min-height: 1500px;
 	background-color: #fcfcfc;
+}
+
+.job-title {
+	font-weight: bolder;
+	font-size: 1.1em;
+	color: #5b5b5b;
+}
+
+.job-info {
+	font-weight: lighter;
+}
+
+.button-apply {
+	align-items: center;
+	background-color: #ED7B35;
+	border-color: unset;
+	padding: 10px 40px;
+	font-size: 0.7em;
+}
+
+.button-apply:hover {
+	align-items: center;
+	background-color: #fcfcfc;
+	border-color: unset;
+	color: grey;
+	padding: 10px 40px;
+	font-size: 0.7em;
+}
+
+.job-card {
+	margin-top: 30px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
