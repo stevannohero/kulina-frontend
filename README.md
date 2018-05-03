@@ -2,7 +2,7 @@
 Stevanno Hero Leadervand
 
 # Project's Page
-[Kulina](https://stevannohero.github.io/kulina-frontend/)
+[Visit my project](https://stevannohero.github.io/kulina-frontend/)
 ![Screenshot](images/ss.png)
 
 # Library

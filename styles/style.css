@@ -114,7 +114,7 @@ hr {
 
 .nav-link {
 	position: fixed;
-	right: 20px;
+	right: 100px;
 }
 
 .nav-link a {
@@ -175,5 +175,9 @@ hr {
 
 	.social-media img {
 		max-height: 10px;
+	}
+
+	.nav-link {
+		right: 30px;
 	}
 }
