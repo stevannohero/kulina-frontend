@@ -5,7 +5,7 @@
 .custom-header {
 	padding: 40px;
 	width: 100%;
-	min-height: 600px;
+	min-height: 650px;
 	background-size: cover !important;
 	background: linear-gradient(to left, rgba(255, 100, 0, 0.5), rgba(180, 15, 20, 0.7)), url('../images/background.jpg') no-repeat;
 }
@@ -16,16 +16,32 @@
 	text-align: center;
 	display: flex;
 	justify-content: center !important;
-	margin-top: 180px;
+	margin-top: 220px;
 }
 
 .arrow-button {
 	font-size: 2em;
-	color: rgba(255, 100, 0, 0.5);
 	text-align: center;
-	margin: 200px auto 0px;
+	margin: 220px auto 0px;
 	height: 40px;
 	width: 40px;
 	background-color: white;
 	border-radius: 100%;
+}
+
+.arrow-button a {
+	color: rgba(255, 100, 0, 0.5);
+	text-decoration: none;
+}
+
+.left-content {
+	margin-top: 50px;
+	font-size: 2.3em;
+	font-weight: bold;
+}
+
+.right-content {
+	margin-top: 50px;
+	font-size: 1em;
+	color: #9b9999;
 }
