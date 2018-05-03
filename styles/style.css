@@ -106,3 +106,8 @@
 hr {
 	margin-top: 0px !important;
 }
+
+.footer img {
+	height: 25px;
+	margin-left: 5px;
+}
